@@ -11,7 +11,7 @@ from mvpygame.utils import unwrap
 
 pg.init()
 pg.font.init()
-pg.display.set_caption("Dino Game")
+pg.display.set_caption("Flappy Bird")
 
 
 def between[T: int | float](value: T, min_value: T, max_value: T) -> T:
